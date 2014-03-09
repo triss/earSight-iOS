@@ -1,0 +1,7 @@
+#ifndef _AUDIO_CONSTANTS
+#define _AUDIO_CONSTANTS
+
+#define SAMPLE_RATE 44100
+#define BUFFER_SIZE 512	
+
+#endif
