@@ -4,7 +4,9 @@
 #include "ofxiOS.h"
 #include "ofxiOSExtras.h"
 #include "synth/Synth.h"
-#include "colourMapping/RGBtoColourMags.h"
+extern "C" {
+    #include "colourMapping/RGBtoColourMags.h"
+};
 
 class testApp : public ofxiOSApp{
 	
